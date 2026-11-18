@@ -13,8 +13,7 @@
 
 **Play it in the browser: https://n64hub.com/mario-kart-64/**, with your own dump of Mario Kart 64
 (US), picked in the launcher and kept in the browser. It needs WebGPU (Chrome or Edge 113 and up, or Firefox). The
-page is built from this branch and published with N64Recomp-browser's `tools/publish_page.sh`, so it can be a commit
-or two behind.
+page is built from this branch, so it can be a commit or two behind.
 
 ## What this fork changes
 
@@ -31,10 +30,7 @@ or two behind.
 - The page takes no mods (a browser can't load recompiled code at run time), and builds the game's shaders before it
   draws with them, from `src/rt64_shaders.txt`.
 
-How the page plays is recorded in N64Recomp-browser's
-[plays.jsonl](https://github.com/n64hub/N64Recomp-browser/blob/main/plays.jsonl) and its
-[games table](https://github.com/n64hub/N64Recomp-browser#games); what porting it found is in
-[BUILDING.md](BUILDING.md#what-porting-it-found).
+What porting it found is in [BUILDING.md](BUILDING.md#what-porting-it-found).
 
 # MarioKart 64: Recompiled
 MarioKart 64: Recompiled is a project that uses [N64: Recompiled](https://github.com/Mr-Wiseguy/N64Recomp) to **statically recompile** MarioKart 64 into a native port with many new features and enhancements. This project uses [RT64](https://github.com/rt64/rt64) as the rendering engine to provide some of these enhancements.

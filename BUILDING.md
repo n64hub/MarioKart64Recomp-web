@@ -94,10 +94,6 @@ header says what it plays.
 
 ## What porting it found
 
-How the page plays is recorded in N64Recomp-browser's
-[plays.jsonl](https://github.com/n64hub/N64Recomp-browser/blob/main/plays.jsonl) and its
-[games table](https://github.com/n64hub/N64Recomp-browser#games).
-
 The game draws 30 frames a second in a race, which RT64 interpolates to the display's rate. Chrome builds the whole
 shader list behind the game, so it never waits for it; Firefox builds none during play, and waits for a section when
 the game gets there.
